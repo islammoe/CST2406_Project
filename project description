@@ -13,3 +13,30 @@ Requirements Analysis:
  - Kitchen Staff sort out incoming orders and delegate to the chefs in order by time stamp
  - Bill payment/Tip entry
  - Data entry
+
+Functional Requirements Specification:
+
+-Stakeholders
+The following are the stakeholders in the application. They have a vested interest of
+some sort in the way that the application works. It is important to them that the
+application is easy to use.
+• Owner of the restaurant
+• Employees (Manager, Host, Waiters, Busboy, and Cook)
+• Programmers
+
+Nonfunctional Requirements:
+
+Usability:
+The system’s user interface will be very simple and self-explanatory. The manager and the cook will interact with the system through touch-screen LCDs. They are very easy to adapt to and use. The users just have to touch the option they want. The waiters will interact with PDAs. They will each be able to access the tables that they are responsible for. The menus for the restaurant will show up as drop-down menus on the PDAs. The waiters only have to select the item that the customer ordered from the drop-down list.
+
+Reliability:
+The system is guaranteed to be reliable. All inputs to the system will be selections from options that the system will show on the screen. Since the system will only provide valid options, there is absolutely no possibility that invalid inputs can be entered. Each user will have a unique username and password. This removes the risk of unauthorized access to the system. Also, users can only access parts of the system that they require for their job. For example, a waiter cannot access the inventory management or the payroll feature of the system. Those parts among a few others can only be accessed by the manager. All these constraints will ensure the reliability of the system. 
+
+Performance: 
+The system will be used by many employees of the restaurant at the same time and can handle it without any errors. However, for this to happen, the server at the restaurant should be able to handle all the traffic without creating any problems. The restaurant should also have a high-speed wireless connection for the system to perform its best. The waiters will be using PDAs and will only be able to connect to the system with a wireless connection. Since some tasks like placing and cooking and an order are sequential, the
+waiter has to update the system with the order first before the cook will see it. In order to for this to happen efficiently, the internet connection needs to be fast so that changes are reflected on the website instantly without any delay.
+
+Supportability:
+The system will support changes that the restaurant might need to make in future. The manager will have the ability to modify items from the menu. He will also be able to add or delete users to the system for layoffs, retirements or new hires.
+ts a license to use the software.
+
